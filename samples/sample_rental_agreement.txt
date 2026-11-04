@@ -1,0 +1,56 @@
+*** FICTIONAL SAMPLE DOCUMENT - FOR DEMONSTRATION AND TESTING ONLY ***
+*** This is not a real legal agreement. All names, addresses and amounts are invented. ***
+
+RESIDENTIAL RENTAL AGREEMENT
+
+This Residential Rental Agreement (the "Agreement") is made and executed at Pune on this 15th day of December, 2025, by and between:
+
+Mr. Arjun Mehta, aged 52 years, residing at 14 Lakeview Residency, Baner Road, Pune 411045 (hereinafter referred to as the "Landlord"), of the FIRST PART;
+
+AND
+
+Ms. Priya Sharma, aged 27 years, residing at 3 Green Park Colony, Nagpur 440010 (hereinafter referred to as the "Tenant"), of the SECOND PART.
+
+The Landlord and the Tenant are collectively referred to as the "Parties".
+
+WHEREAS the Landlord is the lawful owner of the residential flat bearing No. B-704, Skyline Towers, Aundh, Pune 411007 (the "Premises"), and the Tenant has requested the Landlord to let out the Premises for residential use, the Parties agree as follows:
+
+1. Term. This Agreement shall commence on 1st January 2026 and shall remain in force for a period of eleven (11) months, ending on 30th November 2026, unless terminated earlier in accordance with this Agreement.
+
+2. Rent. The Tenant shall pay a monthly rent of Rs. 25,000 (Rupees Twenty-Five Thousand only) to the Landlord. The lessee shall remit the monthly consideration on or before the fifth day of each calendar month by bank transfer to the account designated by the Landlord.
+
+3. Security Deposit. The Tenant shall pay an interest-free refundable security deposit of Rs. 75,000 (Rupees Seventy-Five Thousand only) on or before 28th December 2025. The deposit shall be refunded within thirty (30) days of the Tenant vacating the Premises, after deducting any unpaid rent, utility dues or the cost of repairing damage beyond normal wear and tear, as assessed by the Landlord at his sole discretion.
+
+4. Late Payment. If the rent is not received by the fifth day of the month, the Tenant shall pay a late fee of Rs. 500 per day of delay. In addition, any amount remaining unpaid for more than fifteen (15) days shall attract interest at 3% per month until paid in full.
+
+5. Utilities and Maintenance. The Tenant shall pay all electricity, water and internet charges as per actual consumption. The Tenant shall keep the Premises in good and tenantable condition and shall be responsible for minor repairs costing up to Rs. 2,000 per instance. The Landlord shall be responsible for structural repairs and major plumbing or electrical faults.
+
+6. Use of Premises. The Tenant shall use the Premises for residential purposes only. The Tenant shall not sublet, assign or part with possession of the Premises or any part thereof without the prior written consent of the Landlord.
+
+7. Landlord's Right of Entry. The Landlord may enter the Premises for inspection or repairs at any reasonable time with twenty-four (24) hours' prior notice to the Tenant, except in an emergency.
+
+8. Confidentiality. The Tenant shall keep confidential the access codes, security arrangements and personal information of other residents of Skyline Towers that become known to the Tenant, and shall not disclose them to any third party during the term of this Agreement and for two (2) years thereafter.
+
+9. Termination. Either Party may terminate this Agreement by giving the other Party one (1) month's written notice. Notwithstanding the foregoing, the Tenant shall not terminate this Agreement during the first six (6) months (the "lock-in period"); if the Tenant vacates during the lock-in period, the security deposit shall be forfeited. The Landlord may terminate this Agreement without notice if the Tenant fails to pay rent for two (2) consecutive months or breaches clause 6.
+
+10. Renewal. This Agreement shall renew automatically for a further period of eleven (11) months on the same terms, with a ten percent (10%) increase in rent, unless either Party gives written notice of non-renewal at least sixty (60) days before the expiry date.
+
+11. Indemnity. The Tenant shall indemnify and hold harmless the Landlord against any and all claims, losses, damages or expenses arising out of the Tenant's use of the Premises.
+
+12. Liability. The Landlord shall not be liable for any loss of or damage to the Tenant's personal belongings kept at the Premises, howsoever caused.
+
+13. Force Majeure. Neither Party shall be liable for any delay or failure to perform obligations under this Agreement caused by events beyond the reasonable control of that Party, including fire, flood, earthquake, epidemic or government order.
+
+14. Governing Law and Disputes. This Agreement shall be governed by the laws of India. Any dispute arising out of this Agreement shall first be referred to mediation, and failing settlement within thirty (30) days, shall be subject to the exclusive jurisdiction of the courts at Pune.
+
+15. Entire Agreement. This Agreement constitutes the entire agreement between the Parties and supersedes all prior discussions. Any amendment shall be valid only if made in writing and signed by both Parties.
+
+IN WITNESS WHEREOF the Parties have signed this Agreement on the date first written above.
+
+LANDLORD: Arjun Mehta (signature) ____________
+
+TENANT: Priya Sharma (signature) ____________
+
+Witness 1: ____________        Witness 2: ____________
+
+*** END OF FICTIONAL SAMPLE DOCUMENT ***

@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
+
+  /* Deep navy brand scale */
+  --color-navy-50: #f2f5fb;
+  --color-navy-100: #e3e9f5;
+  --color-navy-200: #c6d2ea;
+  --color-navy-300: #9db1d8;
+  --color-navy-400: #6d87bd;
+  --color-navy-500: #4a65a0;
+  --color-navy-600: #344d85;
+  --color-navy-700: #263b6b;
+  --color-navy-800: #1a2b52;
+  --color-navy-900: #111f3e;
+  --color-navy-950: #0a142b;
+
+  /* Accent blue (used sparingly for actions and focus) */
+  --color-accent-50: #eef3ff;
+  --color-accent-100: #dce6ff;
+  --color-accent-200: #b9ccff;
+  --color-accent-500: #3d6ef0;
+  --color-accent-600: #2f5fd0;
+  --color-accent-700: #264ead;
+
+  /* Chart series (validated: CVD ΔE 21, contrast >= 3:1) */
+  --color-series-1: #2f5fd0;
+  --color-series-2: #0e9f8e;
+
+  --color-canvas: #f6f7fb;
+
+  --shadow-card: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.06);
+  --shadow-lift: 0 4px 12px -2px rgb(16 24 40 / 0.08), 0 2px 4px -2px rgb(16 24 40 / 0.05);
+  --shadow-menu: 0 16px 36px -12px rgb(10 20 43 / 0.22), 0 4px 10px -4px rgb(10 20 43 / 0.08);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-canvas font-sans text-slate-800;
+  }
+  ::selection {
+    background: var(--color-accent-200);
+    color: var(--color-navy-950);
+  }
+  html {
+    scrollbar-color: var(--color-navy-200) transparent;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent-500);
+    outline-offset: 2px;
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-slate-200/80 bg-white shadow-card;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-navy-900 text-white hover:bg-navy-800;
+}
+@utility btn-accent {
+  @apply btn bg-accent-600 text-white hover:bg-accent-700;
+}
+@utility btn-secondary {
+  @apply btn border border-slate-200 bg-white text-slate-700 hover:bg-slate-50;
+}
+@utility btn-ghost {
+  @apply btn text-slate-600 hover:bg-slate-100;
+}
+@utility btn-danger {
+  @apply btn bg-rose-600 text-white hover:bg-rose-700;
+}
+@utility input {
+  @apply w-full rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-sm text-slate-800 placeholder:text-slate-400 focus:border-accent-500 focus:ring-2 focus:ring-accent-100 focus:outline-none;
+}
+@utility eyebrow {
+  @apply text-xs font-semibold tracking-wider text-slate-500 uppercase;
+}
+
+/* Legal-pad ruling with a margin line: the app's signature on its navy panels. */
+.ruled-lines {
+  background-image:
+    linear-gradient(to right, transparent 17px, rgb(125 160 255 / 0.28) 17px, rgb(125 160 255 / 0.28) 18px, transparent 18px),
+    repeating-linear-gradient(to bottom, transparent 0 31px, rgb(255 255 255 / 0.05) 31px 32px);
+}
+
+@keyframes menu-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+}
+
+.menu-pop {
+  animation: menu-pop 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-pop {
+    animation: none;
+  }
+}
+
+mark.source-highlight {
+  @apply rounded bg-amber-100 px-0.5 text-slate-900 ring-1 ring-amber-300;
+}
