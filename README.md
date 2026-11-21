@@ -1,6 +1,6 @@
 # AI-Powered Legal Document Analyzer
 
-> Semester 7 · Computer Science & Engineering · Minor Project
+> Semester 7 · Computer Science & Engineering · Capstone Project Phase -1
 
 A full-stack web application that helps people without legal training understand legal documents. You upload a
 contract, rental or employment agreement, NDA, privacy policy, terms and conditions or legal notice (PDF, DOCX or TXT).
@@ -257,17 +257,17 @@ provider with a key is used, in the order Anthropic, NVIDIA, OpenAI, otherwise d
  ┌──────────────────────┐   /api (proxied)   ┌──────────────────────────────────────────────────┐
  │ pages / components   │ ─────────────────▶ │ routes    thin HTTP layer                        │
  │ services (Axios)     │ ◀───────────────── │   │                                              │
- └──────────────────────┘        JSON        │ services  business logic                         │
-                                             │   document_service ── file_validator, security   │
-                                             │        └── text_extraction, pdf_service          │
-                                             │   analysis_service (background job and status)   │
-                                             │        ├── ai_service.LLMAnalysisEngine          │
-                                             │        │     chunking → clause_service           │
-                                             │        │     → risk_service → summary_service    │
-                                             │        │     llm/ providers, prompts             │
-                                             │        ├── demo_analyzer (no AI configured)      │
-                                             │        └── verification_service (quotes, pages)  │
-                                             │   ai_settings_service, dashboard_service         │
+ └──────────────────────┘        JSON        | services  business logic                          │
+                                             │   document_service ── file_validator, security    │
+                                             │        └── text_extraction, pdf_service           │
+                                             │   analysis_service (background job and status)    │
+                                             │        ├── ai_service.LLMAnalysisEngine           │
+                                             │        │     chunking → clause_service            │
+                                             │        │     → risk_service → summary_service     │
+                                             │        │     llm/ providers, prompts              │
+                                             │        ├── demo_analyzer (no AI configured)       │
+                                             │        └── verification_service (quotes, pages)   │
+                                             │   ai_settings_service, dashboard_service          │
                                              │ SQLAlchemy ── SQLite     storage/uploads (private)│
                                              └──────────────────────────────────────────────────┘
 ```
